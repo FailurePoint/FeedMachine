@@ -1,0 +1,20 @@
+[
+    {
+        "url": "https://www.adn.com/",
+        "prompt": "Please create a RSS feed for the news from this site. IT SHOULD INCLUDE ALL NEWS ARTICLES! this should be a minimum of 13 articles at any given time. NO LESS! each article in the feed should include a photo and should have a link to the article from the site. set the publication date and to the date shown on the website as the publication date and time RETURN ONLY THE RSS FEED in XML format. DO NOT RETURN ANYTHING ELSE.",
+        "save_directory": "/var/www/html/feeds/alaskadailynews",
+        "use_selenium": false
+    },
+    {
+        "url": "https://radiokenai.com/category/news/",
+        "prompt": "Please create a RSS feed for the news from this site. IT SHOULD INCLUDE ALL NEWS ARTICLES! DO NOT LEAVE OUT ANY ARTICLES IN THE PAGE. DO NOT FORGET THE PICTURE FOR EACH FEED! this should be a minimum of 13 articles at any given time. NO LESS! each article in the feed should include a photo and should have a link to the article from the site. set the publication date and to the date shown on the website as the publication date and time RETURN ONLY THE RSS FEED in XML format. DO NOT RETURN ANYTHING ELSE.",
+        "save_directory": "/var/www/html/feeds/ksrm",
+        "use_selenium": false
+    },
+    {
+        "url": "https://thoughtforms.life/",
+        "prompt": "Please create a RSS feed from new blog posts from this site. IT SHOULD INCLUDE THE FULL POST! DO NOT LEAVE OUT ANY ARTICLES IN THE PAGE. DO NOT FORGET THE PICTURE FOR EACH FEED! each article in the feed should include a photo and should have a link to the article from the site. set the publication date and to the date shown on the website as the publication date and time RETURN ONLY THE RSS FEED in XML format. DO NOT RETURN ANYTHING ELSE.",
+        "save_directory": "/var/www/html/feeds/thoughtformslife",
+        "use_selenium": false
+    }
+]
